@@ -12,21 +12,21 @@
       id="img"
       height="200px"
       width="200px"
-      src="https://www.flaticon.com/free-icon/profile_3135715"
+      src="https://res.cloudinary.com/practicaldev/image/fetch/s--ELyLkB2V--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/i/qs6fdnocgr90669hdi1a.jpg"
     />
-    <button class="btn-info" onclick="imgChange1()">Change1</button>
-    <button class="btn-primary" onclick="imgChange2()">Change2</button>
+    <button  onclick="imgChangeOne()">Image-One</button>
+    <button  onclick="imgChangeTwo()">Image-two</button>
 
     <script>
       //change src image1  function
-      function imgChange1() {
+      function imgChangeOne() {
         let image = document.getElementById("img");
         image.src =
           "https://res.cloudinary.com/practicaldev/image/fetch/s--_HBZhuhF--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/nweeqf97l2md3tlqkjyt.jpg";
       }
 
       //change src image2 function
-      function imgChange2() {
+      function imgChangeTwo() {
         let image = document.getElementById("img");
         image.src =
           "https://res.cloudinary.com/practicaldev/image/fetch/s--V0ekZaVJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/h68x0up43hmknl5tjcww.jpg";
