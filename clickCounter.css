@@ -1,0 +1,17 @@
+ body {
+    background: gray;}
+
+    button {
+        align-items: center;
+        padding: 8px;
+        margin: 12px;
+        border-radius: 8px;
+        background: #fff;
+        
+    }
+  #title{
+
+    align-items: center;
+    padding: 8px;
+    margin: 12px;
+  }

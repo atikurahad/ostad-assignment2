@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dom.css">
+    <title>Manipulation</title>
+  </head>
+  <body>
+ 
+    <div id="divEle">Click below and know yourself </div>
+     <div>
+        <button id="btn" onclick="change()">Change</button>
+
+     </div>
+<script>
+
+function change(){
+   let divElement = document.querySelector("#divEle")
+   divElement.innerHTML = "You are very special in someone."
+}
+
+</script>
+
+
+</body>
+</html>

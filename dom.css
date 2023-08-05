@@ -1,0 +1,17 @@
+
+body{
+    background-color: dimgrey;
+}
+
+
+div{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#btn {
+padding: 8px;
+}
